@@ -1,0 +1,58 @@
+// first create the app and added the tailwind css
+
+// create the register ui then come to server side setup some basic packeges epxress dot env and connect the database but first check if the api or url working fine by sending some msg 
+
+//then create model
+// after creating a model write the controller for creating the user 
+// then for api install axios and then initalizze in the app.js and set default value 
+connect the frontend with backend for that setup cors and always console enverthing before finalizing
+// then create a login and register page and then connect it with forntend and in this project we are like just set the cookie just after the register so thats intesting part and when we login if we somehow clear the cookie form the user broser in the application section 
+// then we can login and set the cookie again for login purpose when ever the user login we set the new cookie for that sesion 
+// the we make sure that after login or register we should redirect to the chat page 
+// the we create a chat page where we chat and desgin it 
+-0/
+
+// then we install the websocket by npm i ws
+// then we create a websocket server in the backend and also set the url on the frontend side or client side we can say which is in our case the chat compnent
+
+// then after it check if we are getting information by sending some mess
+// but after it check if you can extract information form the req.header by consoling it 
+// then extract infromation of loggedIn user by token by verfifying and spliting the token 
+// then we can get the user id and then we can get the user data and send it back to the client side or fontend 
+// then check how many user are active 
+// then we send that info to the clien side again\
+
+// so now we want the username and id form the the array of object so we have to extract it form there 
+// then we can send it to the client side and then we can display it on the chat page after styling the side bar
+// then we made a seperate file for avatar and and define function for generating avatar
+// then we can use that function in the chat component to display the avatar of the user
+// then select the user and made some functiality on the base is of it 
+// now sending data to the backend and also attach the id of the person whom you are sending and then in the backend we find that usere to whom you are sending the data and then send back the data to client side but this time the data will go to that user offcourse we have to handle it
+
+// after reciving mssg on the console whe have to display the mssg on the screen chat or chat part
+// but the problem is we are seeing the message 2 times so lwt fix it so for that i we need to know who is sending that message we have the id of user whom to the messsage is sending but dont know who is sending 
+// so we create a message model 
+//then we send the mess to the frontend where we store it in the usetate and then pass it to one function called uniqBy form lodash library so that we can get  only mssg not duplicate
+// make sure that when we send the data of messages from the backend attach the ids of sender recevier, messdocumentId , or any other info if you want
+// then we can display the message on the screen and also display the sender name and id and also
+// lost the connnection i did not remmber what i did after it 
+// but now we find the all the messages from the data base bly the revepient id and userid 
+// we grap receipent id form the prams we add the setuserId int he axios link and grab them on the backend side
+// and we grap ouruserinfo from the cookie 
+// make sure when we find the id then console them because in the most of the case that's the reason for the error and not getting any result 
+// then we make sure that user get connnect after he or she disconnected due to change in the backend just make a function add a event listner close and then call the function when ever the ws dissconnet form  the server and also call it in the useeffect so that it refresh the page
+// after this we grap the messages from the database and display on the screen so that even after the refresh the mssgs still there 
+// then its time to make online indicator it is easy just pass a prop online in the avatar
+// then we also have to show the offline people to make this we just make a route with name people and then find all the people from our data base and also grabing there data like id and username and then send that to the frontend
+// so when we response on the client side we get the ever user there who is present in the database or to check who is offine we not to first remove our id cause we are online then we remove the perople who is comming form the ws response cause they are online so we have to remove them form or database response
+// then show them on the sidebar 
+// after it then its time to make a feature of upload files
+// but what we have to do is when we are sending the mssg we have to send the file with it also and make it like that if there is no file it will without any problem but before that we have to make the file data to base64 and then send it with the messag 
+/// after receving it on the backend we have to set the path and make file name shorter
+
+
+
+//////////////////////////////////////////
+todos 
+1.---> make the application like this if server is stopped and we have to logout the user and make request to login again 
+
